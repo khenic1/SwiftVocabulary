@@ -9,6 +9,12 @@
 import UIKit
 
 class WordsTableViewController: UITableViewController {
+    
+    var vocabWords: [VocabularyWord] = [
+        VocabularyWord(word: "Variable", definition: "named storage that our programs can manipulate"),
+        VocabularyWord(word: "Constant", definition: "fixed values that a program may not alter during its execution"),
+        VocabularyWord(word: "Function", definition: "self-contained chunks of code that perform a specific task")
+    ]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,12 +30,12 @@ class WordsTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return vocabWords.count
     }
 
     /*
@@ -42,40 +48,7 @@ class WordsTableViewController: UITableViewController {
     }
     */
 
-    /*
-    // Override to support conditional editing of the table view.
-    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the specified item to be editable.
-        return true
-    }
-    */
-
-    /*
-    // Override to support editing the table view.
-    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
-        if editingStyle == .delete {
-            // Delete the row from the data source
-            tableView.deleteRows(at: [indexPath], with: .fade)
-        } else if editingStyle == .insert {
-            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
-    }
-    */
-
-    /*
-    // Override to support rearranging the table view.
-    override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to: IndexPath) {
-
-    }
-    */
-
-    /*
-    // Override to support conditional rearranging of the table view.
-    override func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the item to be re-orderable.
-        return true
-    }
-    */
+   
 
     /*
     // MARK: - Navigation
