@@ -9,7 +9,11 @@
 import UIKit
 
 class DefinitionViewController: UIViewController {
-
+    
+    @IBOutlet var word: UILabel!
+    
+    @IBOutlet var definition: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

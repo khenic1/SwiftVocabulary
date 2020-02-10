@@ -14,6 +14,7 @@
 		6661F78123F1FA4800946300 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6661F77F23F1FA4800946300 /* LaunchScreen.storyboard */; };
 		6661F78923F1FC1000946300 /* WordsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6661F78823F1FC1000946300 /* WordsTableViewController.swift */; };
 		6661F78B23F1FC3100946300 /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6661F78A23F1FC3100946300 /* DefinitionViewController.swift */; };
+		6661F78D23F200CF00946300 /* VocabularyWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6661F78C23F200CF00946300 /* VocabularyWord.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		6661F78223F1FA4800946300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6661F78823F1FC1000946300 /* WordsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsTableViewController.swift; sourceTree = "<group>"; };
 		6661F78A23F1FC3100946300 /* DefinitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
+		6661F78C23F200CF00946300 /* VocabularyWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyWord.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				6661F78223F1FA4800946300 /* Info.plist */,
 				6661F78823F1FC1000946300 /* WordsTableViewController.swift */,
 				6661F78A23F1FC3100946300 /* DefinitionViewController.swift */,
+				6661F78C23F200CF00946300 /* VocabularyWord.swift */,
 			);
 			path = SwiftVocabulary;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			files = (
 				6661F77523F1FA4700946300 /* AppDelegate.swift in Sources */,
 				6661F78B23F1FC3100946300 /* DefinitionViewController.swift in Sources */,
+				6661F78D23F200CF00946300 /* VocabularyWord.swift in Sources */,
 				6661F77723F1FA4700946300 /* SceneDelegate.swift in Sources */,
 				6661F78923F1FC1000946300 /* WordsTableViewController.swift in Sources */,
 			);
